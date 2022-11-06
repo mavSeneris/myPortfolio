@@ -10,23 +10,28 @@ import heroImage from "../assets/images/hero.png"
 
 
 
-export default function About(){
+export default function About() {
 
 
-    return(
+    return (
         <section className="about">
-            <img src={profileImage}/>
-            <div className="text-wrapper">
-                <h1>Hi, my name is Mav <img src={waveEmoji}/></h1>
-                <p>I'm a self-taught software engineer from Manila, Philippines </p>
+            <div className="about-container container">
+                <img className="about-image" src={profileImage} />
+                <div className="text-center">
+                    <h1>Hi, my name is Mav <img className="wave" src={waveEmoji} /></h1>
+                    <div class="container container--narrow">
+                        <p>I'm a self-taught software engineer from Manila, Philippines </p>
+                    </div>
+                    <div className="about-social">
+                        <a><img src={github} className="social-logo"/></a>
+                        <a><img src={linkedin} className="social-logo"/></a>
+                        <a><img src={mail} className="social-logo"/></a>
+                        <a><img src={pdf} className="social-logo"/></a>
+                    </div>
+                    <img src={heroImage} className="about-hero_image" />
+                </div>
             </div>
-            <div className="about-social">
-                <a><img src={github}/></a>
-                <a><img src={linkedin}/></a>
-                <a><img src={mail}/></a>
-                <a><img src={pdf}/></a>
-            </div>
-            <img src={heroImage} className="about-hero_image"/>
+
 
         </section>
     )
