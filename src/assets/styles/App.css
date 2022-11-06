@@ -97,6 +97,8 @@ section{
 /** HEADER */
 .nav{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo{
