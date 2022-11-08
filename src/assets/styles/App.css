@@ -269,27 +269,64 @@ section {
 .my-stack-flex-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+}
 
+.language-image {
+  width: 100%;
+  min-width: 100px;
+  transition: all 300ms;
+}
+
+
+
+.language:hover .language-image {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(0.9);
+}
+
+.language {
+  width: 100%;
+  min-width: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.language-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+.language-name {
+  position: absolute;
+  bottom: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  font-size: 20px;
+  opacity: 0;
+}
+.language:hover .language-name {
+  transform: scale(1);
+  opacity: 1;
 }
 
 .tech-stack {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 80px;
-  margin: 70px 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 @media(min-width: 40em) {
   .tech-stack {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.stack-logo {
-  width: 80%;
-  max-width: 150px;
 }
 
 

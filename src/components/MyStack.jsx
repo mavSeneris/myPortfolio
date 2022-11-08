@@ -15,10 +15,35 @@ export default function MyStack() {
                     <h2>These are my <span className="color-accent">technology stacks</span> </h2>
                 </div>
                 <div className="tech-stack">
-                    <img className="stack-logo" src={html} />
-                    <img className="stack-logo" src={css} />
-                    <img className="stack-logo" src={javaScript} />
-                    <img className="stack-logo" src={react} />
+                    <div className="language">
+                        <figure className="language-image-wrapper">
+                            <img className="language-image" src={html} />
+                        </figure>
+                        <span className="language-name">HTML</span>
+
+                    </div>
+                    <div className="language">
+                        <figure className="language-image-wrapper">
+                            <img className="language-image" src={css} />
+                        </figure>
+                        <span className="language-name">CSS</span>
+                    </div>
+                    <div className="language">
+                        <figure className="language-image-wrapper">
+                            <img className="language-image" src={javaScript} />
+                        </figure>
+                        <span className="language-name">JavaScript</span>
+
+                    </div>
+                    <div className="language">
+                        <figure className="language-image-wrapper">
+                            <img className="language-image" src={react} />
+                        </figure>
+                        <span className="language-name">React</span>
+
+                    </div>
+                    
+
                 </div>
             </div>
         </section>
