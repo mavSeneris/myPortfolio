@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="footer-title text-center">
                     <h3 className="ff-accent">Mav Seneris</h3>
                 </div>
-                <div class="footer-links">
+                <div className="footer-links">
                     <a>GitHub</a>
                     <a>linkedIn</a>
                     <a>Mail</a>

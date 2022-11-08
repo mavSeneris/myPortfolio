@@ -22,7 +22,7 @@ export default function About() {
                     <div className="container container--narrow">
                         <p>I'm a self-taught frontend developer from Manila, Philippines </p>
                     </div>
-                    <div className="about-social">
+                    <div className="about-links">
                         <a><img src={github} className="social-logo"/></a>
                         <a><img src={linkedin} className="social-logo"/></a>
                         <a><img src={mail} className="social-logo"/></a>

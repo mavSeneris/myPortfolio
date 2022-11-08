@@ -9,7 +9,7 @@ import react from "../assets/images/react.png"
 export default function MyStack() {
 
     return (
-        <section className="my-stack bg-accent">
+        <section id="languages" className="my-stack bg-accent">
             <div className="my-stack-flex-container container">
                 <div className="text-center">
                     <h2>These are my <span className="color-accent">technology stacks</span> </h2>
