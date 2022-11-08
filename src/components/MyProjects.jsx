@@ -4,9 +4,9 @@ export default function MyProjects() {
 
     return (
         <div className="MyProjects">
-            <div class="container">
+            <div className="container">
                 <div className="text-center">
-                    <h2>Here are some of my projects</h2>
+                    <h2>Here are some of  <span className="color-accent">my projects</span> </h2>
                 </div>
                 <div className="Projects">
                     <div className="tenzies text-center">

@@ -1,12 +1,12 @@
 :root{
-  --clr-primary: #0085FF;
+  --clr-primary: #5271ff;
   --clr-secondary: #F4F4F4;
   --clr-light: #FFFFFF;
   --clr-dark: #000000;
   --clr-neutral: #262626;
 
-  --ff-primary: 'Karla', sans-serif;
-  --ff-accent: 'Merriweather', serif;
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-accent: 'Corben', cursive;
 }
 
 html {
@@ -57,13 +57,20 @@ img {
 h1,
 h2,
 h3{
-  font-family: var(--ff-accent);
-  font-weight: 900;
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  font-size: 2.2em;
   line-height: 1;
+  
+}
+
+p{
+  font-size: 1.4em;
 }
 
 .text-center{
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 section{
@@ -76,7 +83,7 @@ section{
 }
 
 .container--narrow{
-  max-width: 25rem;
+  max-width: 35rem;
 }
 
 .bg-primary{
@@ -92,6 +99,14 @@ section{
   background-color: var(--clr-neutral);
 }
 
+.color-accent{
+  color: var(--clr-primary);
+}
+
+.ff-accent{
+  font-family: var(--ff-accent);
+}
+
 /* ... */
 
 /** HEADER */
@@ -104,6 +119,7 @@ section{
 .logo{
   color: var(--clr-primary);
   margin-right: auto;
+  font-size: 2rem;
 }
 
 .nav-links{
@@ -123,6 +139,7 @@ section{
   height: 1.7em;
   border-radius: 20rem;
   color: white !important;
+  text-align: center;
 }
 
 .hidden{
@@ -157,12 +174,77 @@ section{
   display: flex;
   justify-content: center;
   gap: 1em;
+  margin: 20px 0;
 }
 
 .social-logo{
   width: 1.3em;
 }
 
+.about-hero_image{
+  margin: 70px 0;
+}
+
+/** ... */
+
+/** MYSTACK */
+.my-stack-flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.tech-stack{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 70px 0;
+}
+
+@media(min-width: 40em){
+  .tech-stack{
+    flex-direction: row;
+  }
+}
+
+.stack-logo{
+  width: 80%;
+  max-width: 150px;
+}
+
+
+/** FOOTER  */
+
+.footer{
+  min-height: 300px;
+  display: flex;
+}
+
+.footer-flex-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(min-width: 40em){
+  .footer-links{
+    flex-direction: row;
+    gap: 10%;
+  }
+}
 
 
 

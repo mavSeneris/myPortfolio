@@ -18,9 +18,9 @@ export default function About() {
             <div className="about-container container">
                 <img className="about-image" src={profileImage} />
                 <div className="text-center">
-                    <h1>Hi, my name is Mav <img className="wave" src={waveEmoji} /></h1>
-                    <div class="container container--narrow">
-                        <p>I'm a self-taught software engineer from Manila, Philippines </p>
+                    <h1 className="text-center">Hi, my name is <span className="color-accent ff-accent ">Mav</span> <img className="wave" src={waveEmoji} /></h1>
+                    <div className="container container--narrow">
+                        <p>I'm a self-taught frontend developer from Manila, Philippines </p>
                     </div>
                     <div className="about-social">
                         <a><img src={github} className="social-logo"/></a>
