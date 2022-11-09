@@ -6,13 +6,15 @@ export default function MyProjects() {
 
     const projectCard = projects.map(project =>
         <Card
-          key={project.id}
-          name={project.name}
-          thumbnail={project.image}
-          description={project.description}
-          stacks={project.stacks}
+            key={project.id}
+            name={project.name}
+            thumbnail={project.image}
+            description={project.description}
+            stacks={project.stacks}
+            url={project.url}
+            gitHub={project.gitHub}
         />
-      );
+    );
 
     return (
         <div id="projects" className="my-projects">
@@ -20,9 +22,7 @@ export default function MyProjects() {
                 <div className="text-center">
                     <h2>Here are some of  <span className="color-accent">my projects</span> </h2>
                 </div>
-                <div className="projects-card-container">
-                    {projectCard}
-                </div>
+                {projectCard}
             </div>
         </div>
     )

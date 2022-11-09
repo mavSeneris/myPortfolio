@@ -27,6 +27,10 @@ body {
   line-height: 1.6;
 }
 
+i:hover {
+  opacity: 0.7;
+}
+
 body,
 h1,
 h2,
@@ -235,6 +239,10 @@ section {
 .social-logo {
   width: 1.3em;
 }
+
+.social-logo:hover{
+  opacity: 0.7;
+}
 .about-links{
   display: flex;
   justify-content: center;
@@ -340,25 +348,104 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 100px;
 }
 
-.projects-card-container {
+.project-image{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-
+  gap: 0px;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 50px;
 }
 
-.card {
-  width: 70%;
+
+.project-wrapper {
   flex-direction: column;
   background-color: var(--clr-secondary);
   margin: 50px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0;
 }
+
+.project-wrapper:before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+  background-color: #1C1D25;
+  opacity: 0;
+  transition: opacity 450ms ease;
+  z-index: 2;
+}
+
+.project:hover .project-wrapper:before{
+  opacity: 0.7;
+}
+
+.project:hover .project-image{
+  transform: scale(1.07);
+  filter: blur(5px)
+}
+
+.project-description {
+  position: absolute;
+  top: 50%;
+  left: 90px;
+  transform: translateY(100%);
+  max-width: 600px;
+  z-index: 3;
+  opacity: 0;
+  transition: transform 450ms, opacity 300ms;
+}
+
+.project:hover .project-description{
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.project-description-title{
+  font-size: 3em;
+}
+
+.project-description-para{
+  margin: 16px 0;
+  font-size: 0.9em;
+}
+
+.project-description-links{
+  display: inline-block;
+}
+
+.project-description-link{
+  font-size: 20px;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+
+
+.project-description-title,
+.project-description-sub-title,
+.project-description-para,
+.project-description-link {
+  text-align: left;
+  color: var(--clr-light);
+}
+
 
 
 
