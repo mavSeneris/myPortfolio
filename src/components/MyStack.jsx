@@ -4,11 +4,14 @@ import javaScript from "../assets/images/javaScript.png"
 import react from "../assets/images/react.png"
 
 
+export default function MyStack(props) {
 
-export default function MyStack() {
+    const bgDark = { backgroundColor: props.darkMode ? "#262626" : "#F4F4F4" }
+
+
 
     return (
-        <section id="languages" className="my-stack bg-accent">
+        <section style={bgDark} id="languages" className="my-stack bg-accent" >
             <div className="my-stack-flex-container container">
                 <div className="text-center">
                     <h2>These are my <span className="color-accent">technology stacks</span> </h2>
@@ -41,10 +44,10 @@ export default function MyStack() {
                         <span className="language-name">React</span>
 
                     </div>
-                    
+
 
                 </div>
             </div>
-        </section>
+        </section >
     )
 }

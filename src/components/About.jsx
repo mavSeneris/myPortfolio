@@ -1,8 +1,9 @@
 import profileImage from "../assets/images/sample-image.jpg"
 import waveEmoji from "../assets/images/wave-emoji.png"
 import heroImage from "../assets/images/hero.png"
+import heroImageDark from "../assets/images/hero-dark.png"
 
-export default function About() {
+export default function About(props) {
 
 
     return (
@@ -20,7 +21,7 @@ export default function About() {
                         <a><i className="far fa-envelope"></i></a>
                         <a><i className="fas fa-file-pdf"></i></a>
                     </div>
-                    <img src={heroImage} className="about-hero_image" />
+                    <img src={props.darkMode ? heroImageDark : heroImage} className="about-hero_image" />
                 </div>
             </div>
         </section>
