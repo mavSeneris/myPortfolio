@@ -7,10 +7,26 @@ export default function Footer() {
                     <h3 className="ff-accent">Mav Seneris</h3>
                 </div>
                 <div className="footer-links">
-                    <a>GitHub</a>
-                    <a>linkedIn</a>
-                    <a>Mail</a>
-                    <a>Resume</a>
+                    <a href="https://github.com/mavSeneris" className="
+                        footer-social-link 
+                        link-hover-effect 
+                        link-hover-effect--white"
+                        target="_blank">GitHub</a>
+                    <a href="https://github.com/mavSeneris" className="
+                        footer-social-link 
+                        link-hover-effect 
+                        link-hover-effect--white"
+                        target="_blank">linkedIn</a>
+                    <a href="https://github.com/mavSeneris" className="
+                        footer-social-link 
+                        link-hover-effect 
+                        link-hover-effect--white"
+                        target="_blank">Mail</a>
+                    <a href="https://github.com/mavSeneris" className="
+                        footer-social-link 
+                        link-hover-effect
+                        link-hover-effect--white"
+                        target="_blank">Resume</a>
                 </div>
                 <small className="text-center">Copyright 2022&#169; Maverick Seneris</small>
 
