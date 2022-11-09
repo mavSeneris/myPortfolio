@@ -2,10 +2,12 @@ export default function Footer() {
 
     return (
         <div className="footer bg-dark">
-            <div className="footer-flex-container container">
-                <div className="footer-title text-center">
-                    <h3 className="ff-accent">Mav Seneris</h3>
-                </div>
+            <div className="footer-grid-container container">
+                <a href="#">
+                    <div className="footer-title text-center">
+                        <h3 className="ff-accent">Mav Seneris</h3>
+                    </div>
+                </a>
                 <div className="footer-links">
                     <a href="https://github.com/mavSeneris" className="
                         footer-social-link 
