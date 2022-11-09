@@ -15,16 +15,19 @@ export default function Card(props) {
                     <p className="project-description-para">
                         {props.description}
                     </p>
-                    <div className="project-description-links">
-                        <a href={props.gitHub} target="_blank" className="project-description-link">
-                            <i className="fab fa-github"></i>
-                        </a>
+                    <div className="project-description-links-wrapper">
+                        <div className="project-description-links">
+                            <a href={props.gitHub} target="_blank" className="project-description-link">
+                                <i className="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div className="project-description-links">
+                            <a href={props.url} target="_blank" className="project-description-link">
+                                <i className="fas fa-link"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div className="project-description-links">
-                        <a href={props.url} target="_blank" className="project-description-link">
-                            <i className="fas fa-link"></i>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
