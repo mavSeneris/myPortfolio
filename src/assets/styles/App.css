@@ -63,7 +63,6 @@ img {
 }
 
 /* Utility class */
-
 h1,
 h2,
 h3 {
@@ -71,7 +70,6 @@ h3 {
   font-weight: 600;
   font-size: 2.2em;
   line-height: 1;
-
 }
 
 p {
@@ -168,7 +166,6 @@ section {
   font-weight: 700;
 }
 
-
 .btn-contact {
   background-color: var(--clr-primary);
   padding: 0.7rem 2rem;
@@ -229,11 +226,9 @@ section {
   0% {
     transform: scale(0);
   }
-
   80% {
     transform: scale(1.1);
   }
-
   100% {
     transform: scale(1);
   }
@@ -248,17 +243,13 @@ section {
   0% {
     transform: rotate(0);
   }
-
   50% {
     transform: rotate(30deg);
   }
-
   100% {
     transform: rotate(0);
   }
 }
-
-
 
 .about-hero_image {
   margin: 70px 0;
@@ -298,7 +289,6 @@ section {
     opacity: 0;
     transform: translateY(40px);
   }
-
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -309,7 +299,6 @@ section {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }

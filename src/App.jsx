@@ -1,3 +1,4 @@
+
 import Header from "./components/Header"
 import About from "./components/About"
 import MyStack from "./components/MyStack"
@@ -7,8 +8,7 @@ import './assets/styles/App.css'
 
 
 function App() {
-
-
+  
   return (
     <div className="App">
       <Header />

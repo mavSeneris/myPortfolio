@@ -7,7 +7,7 @@ export default function Header(){
             <div className="nav-flex-container container">
                 <h1 className="logo ff-accent">Mav Seneris</h1>
                 <div className="nav-links">
-                    <a href="#languages" class="
+                    <a href="#languages" className="
                         hidden
                         link-hover-effect
                         link-hover-effect--black

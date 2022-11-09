@@ -1,8 +1,4 @@
 import profileImage from "../assets/images/sample-image.jpg"
-import github from "../assets/images/github.png"
-import mail from "../assets/images/mail.png"
-import linkedin from "../assets/images/linkedin.png"
-import pdf from "../assets/images/pdf.png"
 import waveEmoji from "../assets/images/wave-emoji.png"
 import heroImage from "../assets/images/hero.png"
 
