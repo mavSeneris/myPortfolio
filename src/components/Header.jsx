@@ -5,6 +5,7 @@ export default function Header(props){
         <section className="Header">
             <div className="nav-flex-container container">
                 <h1 className="logo ff-accent">Mav Seneris</h1>
+                <button onClick={props.toggleDarkMode}>toggle</button>
                 {!props.darkMode && <div className="nav-links">
                     <a href="#languages" className="
                         hidden
