@@ -20,13 +20,14 @@ function App() {
     setDarkMode(isDarkMode => !isDarkMode)
   }
 
-  const bgDark = {
+  const darkTheme = {
     backgroundColor: darkMode ? "black" : "white",
-    color: darkMode ? "white" : "black"
+    color: darkMode ? "white" : "black",
+    transition: "background 0.7s ease"
   }
 
   return (
-    <div style={bgDark} className="App">
+    <div style={darkTheme} className="App">
       <Header
         toggleDarkMode={toggleDarkMode}
         darkMode={darkMode}

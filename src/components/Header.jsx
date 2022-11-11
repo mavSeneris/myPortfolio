@@ -1,11 +1,24 @@
-export default function Header(props){
-    
+export default function Header(props) {
 
-    return(
+
+    return (
         <section className="Header">
             <div className="nav-flex-container container">
                 <h1 className="logo ff-accent">Mav Seneris</h1>
-                <button onClick={props.toggleDarkMode}>toggle</button>
+                {/* {!props.darkMode && <button  className="darkmode-btn" onClick={props.toggleDarkMode}>
+                    <i className="fa fa-moon"></i>
+                </button>}
+                {props.darkMode && <button className="darkmode-btn" onClick={props.toggleDarkMode}>
+                    <i style={{color:"yellow"}} className="fa fa-sun"></i>
+                </button>} */}
+
+                <input type="checkbox" id="checkbox" className="checkbox" />
+                <label for="checkbox" className="toggle-theme" onClick={props.toggleDarkMode}>
+                    <i className="fas fa-moon"></i>
+                    <i className="fas fa-sun"></i>
+                </label>
+
+
                 {!props.darkMode && <div className="nav-links">
                     <a href="#languages" className="
                         hidden
@@ -21,12 +34,12 @@ export default function Header(props){
                 </div>}
 
                 {props.darkMode && <div className="nav-links">
-                    <a style={{color: "white"}} href="#languages" className="
+                    <a style={{ color: "white" }} href="#languages" className="
                         hidden
                         link-hover-effect
                         link-hover-effect--white
                     ">Languages</a>
-                    <a style={{color: "white"}} href="#projects" className="
+                    <a style={{ color: "white" }} href="#projects" className="
                         hidden
                         link-hover-effect
                         link-hover-effect--white

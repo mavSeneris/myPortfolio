@@ -141,6 +141,10 @@ section {
 /* ... */
 
 /** HEADER */
+header{
+  display: flex;
+}
+
 .nav-flex-container {
   display: flex;
   justify-content: center;
@@ -198,10 +202,81 @@ section {
   margin-right: 15px;
 }
 
+.fa-moon {
+  transform: translateX(0px);
+}
+
+.fa-sun { 
+  transform: translateX(0px);
+}
+
 @media(min-width: 50em) {
   .hidden {
     display: inline-block;
   }
+}
+
+.darkmode-btn{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-right: 1%;
+  font-size: 1em;
+  color: rgb(255, 63, 95);
+}
+
+.toggle-theme {
+  background: rgb(30, 109, 255, 0.6);
+  height: 2rem;
+  width: 2rem;
+  padding: 5px;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.toggle-theme:hover,
+.togge-theme:focus {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.toggle-theme i {
+  font-size: 1.4rem;
+  position: absolute;
+  transition: transform 0.5s ease, opacity 0.5s ease, color 0.5s ease;
+}
+
+.fa-sun {
+  text-align: center;
+  color: rgb(255, 72, 0);
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.fa-moon {
+  text-align: center;
+  color: rgb(251, 178, 6);
+  transform: translateX(0px);
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox:checked ~ .toggle-theme .fa-sun{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.checkbox:checked ~ .toggle-theme .fa-moon{
+    opacity: 0;
+    transform: translateX(-50px);
 }
 
 /** ... */
