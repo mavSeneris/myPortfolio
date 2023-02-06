@@ -1,7 +1,7 @@
 import projects from "../projects"
 import Card from "../components/Card"
 
-export default function MyProjects(props) {
+export default function MyProjects() {
 
 
     const projectCard = projects.map(project =>
