@@ -470,6 +470,7 @@ header {
 
 .project-image {
   width: 100%;
+  max-width: 700px;
   transition: all 500ms ease;
 }
 
