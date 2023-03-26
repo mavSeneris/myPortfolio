@@ -1,4 +1,4 @@
-import profileImage from "../assets/images/sample-image.jpg"
+import profileImage from "../assets/images/id.jpg"
 import waveEmoji from "../assets/images/wave-emoji.png"
 import heroImage from "../assets/images/hero.png"
 import heroImageDark from "../assets/images/hero-dark.png"
