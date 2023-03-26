@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         name: "Tenzies",
-        image: "../src/assets/images/tenzies.png",
+        image: "https://scrimba.ams3.digitaloceanspaces.com/assets/emails/reactv2/projects/Tenzies.jpg",
         url: "https://eluids-tenzies-game.netlify.app/",
         gitHub: "https://github.com/mavSeneris/tenzies",
         description: "You have ten dice and you must roll as fast as you can until all your dice is on the same number in the shortest time and shout TENZI!",
@@ -13,11 +13,11 @@ export default [
     {
         id: 2,
         name: "E-Commerce UI",
-        image: "../src/assets/images/hero-image1.2a8a1f04.png",
-        url: "https://polite-brioche-7bea1b.netlify.app/",
+        image: "https://i.pinimg.com/564x/68/08/5b/68085be21e57a744cfdcca4a6f1e3f31.jpg",
+        url: "https://legendary-youtiao-553c63.netlify.app/",
         gitHub: "https://github.com/mavSeneris/etape",
-        description: "You have ten dice and you must roll as fast as you can until all your dice is on the same number in the shortest time and shout TENZI!",
-        stacks: ["HTML", "CSS", "JavaScript", "React"],
-        type: "website"
+        description: "A cycling apparel online shop that specializes in high performance clothing an other cycling accessories",
+        stacks: ["HTML", "CSS", "JavaScript", "React", "React Router"],
+        type: "E-commerce site"
     }
 ]
