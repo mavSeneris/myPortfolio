@@ -16,7 +16,7 @@ export default [
         image: "https://i.pinimg.com/564x/68/08/5b/68085be21e57a744cfdcca4a6f1e3f31.jpg",
         url: "https://legendary-youtiao-553c63.netlify.app/",
         gitHub: "https://github.com/mavSeneris/etape",
-        description: "A cycling apparel online shop that specializes in high performance clothing an other cycling accessories",
+        description: "A cycling apparel online shop that specializes in high performance clothing and other cycling accessories",
         stacks: ["HTML", "CSS", "JavaScript", "React", "React Router"],
         type: "E-commerce site"
     }
