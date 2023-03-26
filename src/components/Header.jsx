@@ -5,11 +5,14 @@ export default function Header(props) {
         <section className="Header">
             <div className="nav-flex-container container">
                 <h1 className="logo ff-accent">Mav Seneris</h1>
-                <input type="checkbox" id="checkbox" className="checkbox" />
-                <label for="checkbox" className="toggle-theme" onClick={props.toggleDarkMode}>
-                    <i className="fas fa-moon"></i>
-                    <i className="fas fa-sun"></i>
-                </label>
+                <div className='toggler'>
+                    <input type="checkbox" id="checkbox" className="checkbox" />
+                    <label for="checkbox" className="toggle-theme" onClick={props.toggleDarkMode}>
+                        <i className="fas fa-moon"></i>
+                        <i className="fas fa-sun"></i>
+                    </label>
+                </div>
+
 
 
                 {!props.darkMode && <div className="nav-links">
