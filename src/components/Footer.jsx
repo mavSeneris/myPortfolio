@@ -14,17 +14,17 @@ export default function Footer() {
                         link-hover-effect 
                         link-hover-effect--white"
                         target="_blank">GitHub</a>
-                    <a href="https://github.com/mavSeneris" className="
+                    <a href="https://www.linkedin.com/in/maverick-seneris-50800b275/" className="
                         footer-social-link 
                         link-hover-effect 
                         link-hover-effect--white"
                         target="_blank">linkedIn</a>
-                    <a href="https://github.com/mavSeneris" className="
+                    <a href="mailto:email@email.com" className="
                         footer-social-link 
                         link-hover-effect 
                         link-hover-effect--white"
                         target="_blank">Mail</a>
-                    <a href="https://github.com/mavSeneris" className="
+                    <a href="./assets/Example Resume.pdf" className="
                         footer-social-link 
                         link-hover-effect
                         link-hover-effect--white"
