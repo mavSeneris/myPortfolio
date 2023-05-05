@@ -2,6 +2,7 @@ import profileImage from "../assets/images/id.jpg"
 import waveEmoji from "../assets/images/wave-emoji.png"
 import heroImage from "../assets/images/hero.png"
 import heroImageDark from "../assets/images/hero-dark.png"
+import resumeFile from "../assets/Resume/Resume.pdf";
 
 export default function About(props) {
 
@@ -19,7 +20,7 @@ export default function About(props) {
                         <a href="https://www.linkedin.com/in/maverick-seneris-50800b275/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/mavSeneris" target="_blank"><i className="fab fa-github"></i></a>
                         <a href="mailto:email@email.com"><i className="far fa-envelope"></i></a>
-                        <a href="./assets/Example Resume.pdf" target="_blank"><i className="fas fa-file-pdf"></i></a>
+                        <a href={resumeFile} target="_blank"><i className="fas fa-file-pdf"></i></a>
                     </div>
                     <img src={props.darkMode ? heroImageDark : heroImage} className="about-hero_image" />
                 </div>

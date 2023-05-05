@@ -1,4 +1,7 @@
+import resumeFile from "../assets/Resume/Resume.pdf";
+
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
 
     return (
         <div className="footer bg-dark">
@@ -24,13 +27,13 @@ export default function Footer() {
                         link-hover-effect 
                         link-hover-effect--white"
                         target="_blank">Mail</a>
-                    <a href="./assets/Example Resume.pdf" className="
+                    <a href={resumeFile} className="
                         footer-social-link 
                         link-hover-effect
                         link-hover-effect--white"
                         target="_blank">Resume</a>
                 </div>
-                <small className="text-center">Copyright 2022&#169; Maverick Seneris</small>
+                <small className="text-center">Copyright {currentYear}&#169; Maverick Seneris</small>
 
             </div>
         </div>
