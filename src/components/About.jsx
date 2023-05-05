@@ -17,10 +17,10 @@ export default function About(props) {
                         <p>I'm a self-taught frontend developer from Manila, Philippines </p>
                     </div>
                     <div className="about-links">
-                        <a href="https://www.linkedin.com/in/maverick-seneris-50800b275/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/mavSeneris" target="_blank"><i className="fab fa-github"></i></a>
-                        <a href="mailto:email@email.com"><i className="far fa-envelope"></i></a>
-                        <a href={resumeFile} target="_blank"><i className="fas fa-file-pdf"></i></a>
+                        <a style={{color: props.darkMode && "white"}} href="https://www.linkedin.com/in/maverick-seneris-50800b275/" target="_blank"><i className="fab fa-linkedin-in"></i></a>
+                        <a style={{color: props.darkMode && "white"}} href="https://github.com/mavSeneris" target="_blank"><i className="fab fa-github"></i></a>
+                        <a style={{color: props.darkMode && "white"}} href="mailto:email@email.com"><i className="far fa-envelope"></i></a>
+                        <a style={{color: props.darkMode && "white"}} href={resumeFile} target="_blank"><i className="fas fa-file-pdf"></i></a>
                     </div>
                     <img src={props.darkMode ? heroImageDark : heroImage} className="about-hero_image" />
                 </div>
