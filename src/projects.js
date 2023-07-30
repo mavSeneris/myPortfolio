@@ -7,7 +7,7 @@ export default [
         gitHub: "https://github.com/mavSeneris/tenzies",
         description: "You have ten dice and you must roll as fast as you can until all your dice is on the same number in the shortest time and shout TENZI!",
         stacks: ["HTML", "CSS", "JavaScript", "React"],
-        type: "game"
+        type: "Game"
     },
 
     {
@@ -19,5 +19,15 @@ export default [
         description: "A cycling apparel online shop that specializes in high performance clothing and other cycling accessories",
         stacks: ["HTML", "CSS", "JavaScript", "React", "React Router"],
         type: "E-commerce site"
+    },
+    {
+        id: 3,
+        name: "E-Commerce UI",
+        image: "https://im.ge/i/Screenshot-from-2023-07-30-09-51-13.9wXs9Y",
+        url: "https://iridescent-centaur-ba6fe9.netlify.app/",
+        gitHub: "https://github.com/mavSeneris/Fridge2Pan",
+        description: "Your ulitimate recipe and meal planning app! Discover recipes, search by available ingredients in your fridge and efficiently plan your meals. Reduce food waste and improve your cooking.",
+        stacks: ["HTML", "CSS", "JavaScript", "React", "React Router", "Firebase"],
+        type: "Web app"
     }
 ]
