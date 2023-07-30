@@ -22,8 +22,8 @@ export default [
     },
     {
         id: 3,
-        name: "Fridge2App",
-        image: "https://i.im.ge/2023/07/30/9wmoWJ.Fridge2App.png",
+        name: "Fridge2Pan",
+        image: "https://i.im.ge/2023/07/30/9w6uqF.Fridge2App1.png",
         url: "https://iridescent-centaur-ba6fe9.netlify.app/",
         gitHub: "https://github.com/mavSeneris/Fridge2Pan",
         description: "Your ulitimate recipe and meal planning app! Discover recipes, search by available ingredients in your fridge and efficiently plan your meals. Reduce food waste and improve your cooking.",
