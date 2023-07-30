@@ -10,7 +10,7 @@ export default function Card(props) {
                         {props.name}
                     </h3>
                     <h4 className="project-description-sub-title">
-                        HTML, CSS, JavaScript and React
+                        {props.stacks.slice("").join(", ")}
                     </h4>
                     <p className="project-description-para">
                         {props.description}
