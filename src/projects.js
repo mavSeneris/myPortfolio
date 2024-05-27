@@ -29,5 +29,15 @@ export default [
         description: "Your ulitimate recipe and meal planning app! Discover recipes, search by available ingredients in your fridge and efficiently plan your meals. Reduce food waste and improve your cooking.",
         stacks: ["HTML", "CSS", "JavaScript", "React", "React Router", "Firebase", "ChatGPT"],
         type: "Web app"
+    },
+    {
+        id: 4,
+        name: "Wther",
+        image: "https://images.unsplash.com/photo-1605727216801-e27ce1d0cc28?w=1800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGh1bmRlcnN0b3JtfGVufDB8fDB8fHww",
+        url: "https://wther.netlify.app/",
+        gitHub: "https://github.com/mavSeneris/Fridge2Pan",
+        description: "Weather App using React, TypeScript, and TailwindCSS, leveraging the Geolocation API to fetch and display the current weather based on the user’s location.",
+        stacks: ["React", "TypeScript", "TailwindCSS", "Openweather API", "Google Geolocation API"],
+        type: "Web app"
     }
 ]
